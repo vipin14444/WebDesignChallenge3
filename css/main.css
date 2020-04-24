@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.container .left {
+  position: relative;
+  padding: 120px 90px;
+  color: white;
+  height: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.609)), to(rgba(0, 0, 0, 0.712))), url("../assets/left-bg-2.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.712)), url("../assets/left-bg-2.jpg");
+  background-size: cover;
+  line-height: 25px;
+}
+
+.container .left .h2 {
+  font-size: 40px;
+}
+
+.container .left .h3 {
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.container .left .h4 {
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.container .left .logo-container {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .left .logo-container .logo {
+  width: 35px;
+  height: 35px;
+}
+
+.container .left .logo-container .logo-text {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.container .right {
+  position: relative;
+  height: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 55%;
+          flex: 0 0 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 130px 130px;
+}
+
+.container .right .field {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.container .right .field .label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.container .right .field .form-field {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+  padding: 5px 0;
+}
+
+.container .right .checkbox {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.container .right .checkbox .form-field {
+  width: unset;
+  margin-right: 10px;
+}
+
+.container .right .btn-container {
+  color: #aaaaaa;
+}
+
+.container .right .btn-container .button {
+  background-color: #00bd00;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.container .right .btn-container a {
+  text-decoration: none;
+}
+
+.container .right .btn-container a .login {
+  font-weight: 600;
+}
+
+.primary {
+  color: #00bd00;
+}
+
+.credits {
+  line-height: 1;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 9px;
+  color: #6b6b6b;
+}
+
+.credits div {
+  margin-top: 5px;
+  font-size: 10px;
+}
+/*# sourceMappingURL=main.css.map */
